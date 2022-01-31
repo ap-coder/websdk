@@ -1,0 +1,13 @@
+{
+    "name": "Websdk",
+    "alias": "websdk",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Websdk\\Providers\\WebsdkServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
