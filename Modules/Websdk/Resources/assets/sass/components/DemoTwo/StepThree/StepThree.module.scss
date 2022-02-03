@@ -1,0 +1,24 @@
+.demo-two-step-three-info {
+  > * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  address {
+    font-size: 1.25rem;
+    font-style: normal;
+  }
+}
+
+.demo-two-step-three-grid {
+  margin-bottom: 2.5rem;
+}
+
+.demo-two-step-three-card.card {
+  padding: 2.5rem;
+
+  * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

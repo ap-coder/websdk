@@ -1,0 +1,15 @@
+.p,
+p {
+  color: var(--text-color);
+  font-family: var(--roboto-condensed);
+  font-size: 1.25rem; // 20px
+  line-height: 1.4;
+}
+
+.p-outtro {
+  font-size: 2.1875rem; // 35px
+
+  &:last-of-type {
+    margin-bottom: 5.625rem;
+  }
+}

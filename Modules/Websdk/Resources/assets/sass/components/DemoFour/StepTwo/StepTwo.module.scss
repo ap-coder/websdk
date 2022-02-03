@@ -1,0 +1,40 @@
+.barcodes {
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+    max-width: 100%;
+}
+
+.barcode {
+    display: flex;
+    align-items: center;
+    min-height: 23.25rem;
+    justify-content: center;
+    background: url('../../../../js/images/Iphone-spinner-2.gif') center center no-repeat;
+    background-size: 1.5rem 1.5rem;
+    cursor: pointer;
+    &.toggled .barcode-img {
+        display: none;
+    }
+    &.toggled .barcode-info {
+        opacity: 1;
+        visibility: visible;
+        transition: all ease-in-out 0.25s;
+        transition-delay: 0.25s;
+    }
+}
+
+.barcode-img,
+.barcode-info {
+    position: absolute;
+    opacity: 1;
+}
+
+.barcode-img {
+    transform: scale(.8);
+}
+
+.barcode-info {
+    opacity: 0;
+    visibility: hidden;
+    background-color: #fff;
+}

@@ -1,0 +1,61 @@
+{
+    "demos": [{
+            "id": 1,
+            "type": "Two Device Experience",
+            "examples": [{
+                    "id": "demo-1",
+                    "heading": "BYOD Retail Shopping Experience",
+                    "requirements": "1 device with a camera, 1 device with access to code.com",
+                    "description": "Would you like to offer your retail customers the ability to scan items into their shopping cart, checkout, and pay simply by using their personal smart phone?  No standing in lines, no touching germ filled credit card machines, just a person experiencing their own personal journey.  All of this is possible and it begins by scanning a QR code within your store to open a web-based shopping experience."
+                },
+                {
+                    "id": "demo-2",
+                    "heading": "Secure Personal Information Within a Barcode",
+                    "requirements": "1 device with a camera, 1 device with access to code.com",
+                    "description": "Do you want to put personal information into a code that cannot be read by any other barcode reader?  In this demo we will simulate a patient record with personal  information scanned off of a drivers license and encoded into a barcode that can only be read using our proprietary GoCode technology.  The GoCode will be generated on your PC and then you can use your smartphone to decode it and see the same information on a 2nd device, all without downloading an app, just a simple web browser."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "type": "Single Device Experience",
+            "examples": [{
+                    "id": "demo-3",
+                    "heading": "Scan Any Barcode into a Google Search",
+                    "requirements": "1 device with a camera",
+                    "description": "This is a very simple demo which uses the camera on your device to scan any barcode you have around you.  Once the barcode is scanned we'll do a google search and see if Google can tell you what that item is. Please do not scan anything that contains sensitive or personal information as this data is being sent to a google search."
+                },
+                {
+                    "id": "demo-4",
+                    "heading": "Scan a Barcode on your Screen",
+                    "requirements": "1 device with a camera",
+                    "description": "Have you ever had a barcode on your screen that you needed to scan, but you cannot because it's being displayed on your device and you don't have a 2nd device to scan the barcode?  Yeah, happens to us all of the time, so we decided to create a simple screen capture app that can decode a barcode displayed within your browser."
+                }
+            ]
+        }
+    ],
+    "examples": [{
+        "id": 1,
+        "steps": [{
+                "id": 1,
+                "step": 1,
+                "title": "Welcome to Code WebSDK Retail Shopping Experience Demo!",
+                "description": "<p>We recommend you run this portion on a PC and use your smartphone to scan the QR code below to open a 2nd browser on your mobile device so that we may simulate a shopping experience.<br><br>Imagine walking into a retail store with signs asking you to scan a QR code to begin shopping on your phone. Scan the QR code below using your SmartPhone to begin the shopping demo.<br><br>After you have the shopping cart open on your phone, click the Next button.</p>",
+                "buttonLabel": "Next"
+            },
+            {
+                "id": 2,
+                "step": 2,
+                "title": "Click a product below to reveal its barcode, then use your phone to scan it into your shopping cart.",
+                "description": "<p>Scan as many as you like, you can even scan physical items you have around you.<br>Your smartphone should have our shopping demo open now, if not please go back and start over.<br><br>Code&rsquo;s industry leading CortexDecoder WebSDK is running inside your phones web browser to enable this</p>",
+                "buttonLabel": "Check Out"
+            },
+            {
+                "id": 3,
+                "step": 3,
+                "description": "<p>During this demo you experienced a shopping experience inside the browser of your phone and used Codes CortexDecoder WebSDK to scan items into your shopping cart. No apps to download, no lines to wait in, just a simple online shopping experience within your store. Imagine customers having the power to control their shopping experience from their phone and what you could do with all of the analytics data that comes into the store with each digital customer. &nbsp;Forget loyalty cards, this is a game-changer!<br><br>Try CortexDecoder WebSDK yourself with a 60 day demo!<br>If you want to explore more, check out our other WebSDK demos, or download CortexScan in the app store where you can explore detailed settings and configurations available within our SDK.</p>",
+                "buttonLabel": "Request a 60 day Demo License!"
+            }
+        ]
+    }]
+}

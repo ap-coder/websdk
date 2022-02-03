@@ -1,9 +1,22 @@
-@extends('websdk::layouts.master')
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
-@section('content')
-    <h1>Hello World</h1>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laravel</title>
+    <!-- Styles -->
+    <link href="{{ asset('css/websdk.css') }}" rel="stylesheet">
+</head>
 
-    <p>
-        This view is loaded from module: {!! config('websdk.name') !!}
-    </p>
-@endsection
+<body>
+
+    <!-- React root DOM -->
+    <div id="codecorpdemo">
+    </div>
+
+    <!-- React JS -->
+    <script src="{{ asset('js/websdk.js') }}" defer></script>
+
+</body>
+</html>

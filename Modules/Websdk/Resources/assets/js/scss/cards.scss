@@ -1,0 +1,19 @@
+.card {
+  display: block;
+  padding: 2.625rem;
+  box-shadow: var(--box-shadow);
+  border-radius: 1.75rem;
+
+  @media (min-width: 64rem) {
+    padding: 4.6875rem;
+  }
+
+  * {
+    color: var(--text-color);
+    line-height: 1.4;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
