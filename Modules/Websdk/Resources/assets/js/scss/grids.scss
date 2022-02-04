@@ -1,0 +1,16 @@
+[class*='grid-'] {
+  display: grid;
+  grid-gap: 3.125rem;
+}
+
+.grid-2 {
+  @media (min-width: 48rem) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.grid-3 {
+  @media (min-width: 48rem) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

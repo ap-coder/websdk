@@ -1,0 +1,26 @@
+.table {
+  width: 100%;
+  font-size: 0.9375rem;
+}
+
+.table td:first-child {
+  text-transform: capitalize;
+}
+
+.table td:last-child {
+  text-align: right;
+}
+
+.table tbody td {
+  padding-bottom: 0.9375rem;
+}
+
+.table tbody tr:last-child td {
+  padding-bottom: 1.125rem;
+}
+
+.table tfoot td {
+  padding-top: 1.125rem;
+  color: var(--color-primary);
+  border-top: 0.0625rem solid #70707023;
+}

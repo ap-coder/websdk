@@ -1,0 +1,35 @@
+h1,
+.h1 {
+  color: var(--color-primary);
+  font-family: var(--archivo-black);
+  font-size: 1.875rem; // 30px
+  line-height: 1.0675;
+}
+
+h2,
+.h2 {
+  line-height: 1.1;
+  font-family: var(--roboto-condensed);
+  font-size: 1.5625rem; // 25px
+}
+
+h3,
+.h3 {
+  color: var(--color-primary);
+  font-family: var(--roboto-condensed);
+  font-size: 1.625rem; // 26px
+}
+
+h4,
+.h4 {
+  color: var(--text-color);
+  font-family: var(--roboto-condensed);
+  font-size: 1.25rem; // 20px
+}
+
+h5,
+.h5 {
+  font-family: var(--roboto-condensed);
+  font-size: 1.25rem; // 20px
+  font-weight: 400;
+}

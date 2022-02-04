@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import 'globalStyles.module.scss';
+@import 'components/Camera/Camera.module.scss';
+@import 'components/Demos/Demos.module.scss';
+@import 'components/DemoCard/DemoCard.module.scss';
+@import 'components/DemoFour/StepTwo/StepTwo.module.scss';
+@import 'components/DemoOne/StepOne/StepOne.module.scss';
+@import 'components/DemoOne/StepTwo/StepTwo.module.scss';
+@import 'components/DemoOne/StepTwo/ImageToggle/ImageToggle.module.scss';
+@import 'components/DemoThree/StepTwo/StepTwo.module.scss';
+@import 'components/DemoTwo/StepFive/StepFive.module.scss';
+@import 'components/DemoTwo/StepFour/StepFour.module.scss';
+@import 'components/DemoTwo/StepSix/StepSix.module.scss';
+@import 'components/DemoTwo/StepThree/StepThree.module.scss';
+@import 'components/DemoTwo/StepTwo/StepTwo.module.scss';
+@import 'components/DemoTwoMobile/StepThree/StepThree.module.scss';
+@import 'components/Modal/Modal.module.scss';
+@import 'components/ModalToggle/ModalToggle.module.scss';
+#codecorpdemo {
+    // Fakes the body styles
+    color: var(--text-color);
+    font-family: var(--roboto-condensed);
+    line-height: 1.4;
+}

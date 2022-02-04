@@ -1,0 +1,27 @@
+.btn-primary,
+.btn-secondary {
+  padding: 0.8125rem 3rem;
+  font-family: var(--roboto-condensed);
+  font-size: 1.8125rem;
+  font-weight: 700;
+  border-radius: 0.3125rem;
+  border-width: 0.25rem;
+  border-style: solid;
+  cursor: pointer;
+  transition: all ease-in-out 0.15s;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-secondary {
+  background: transparent;
+  border-color: var(--btn-border-color);
+}

@@ -1,0 +1,14 @@
+.demo-one-image-grid {
+  display: grid;
+  grid-gap: 3.125rem;
+  padding-top: 3.25rem;
+  padding-bottom: 3.875rem;
+
+  @media (min-width: 25.875rem) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 48rem) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
