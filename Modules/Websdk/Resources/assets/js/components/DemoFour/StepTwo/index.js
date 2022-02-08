@@ -6,8 +6,7 @@ import { items } from './data'
 import Body from './Body'
 import Footer from './Footer'
 ;(async function () {
-  const license =
-    'pMIFNx4hli3QxShSfhs19sQ5+liNx/jhXYVCogRC4LalzKY42+hq1zAtvcPntFCZC6tb5FBqlsDzKY5m8zacO5aKGa+Tc7sQjiRQhe/qcpHCZD89Zdzj6yqUkEIRIfvLrwmWK8YSvNWW/sy3CD5cN8lNOGQ3R2rAyeqQPod30LjEE3VLCEDfZaECeo+VPvbkoLrGuP1Im5xUvH9jT8qbdNAWEyK2teNi46lDLfiLRttuQGYuA4iPHRvEkbV28rELys/kwwujWS031sytMAd2Z3pe1QiRg2574yxXvM0Z2ttfuPPeiFWLVCbBliHl0peIrDqDF7G6Ez0jD/51GSFYuK92zFXIEEUeOv31OWS2gZCqLsD9G1YYbboTi5a69G/tH5J46+Fr/Kl3mWUays54aQ=='
+  const license = process.env.MIX_REACT_APP_WEB_SDK_LICENSE
 
   try {
     await CortexDecoder.CDDecoder.init()
