@@ -5,10 +5,12 @@ import { BarcodeContext } from '../../Context'
 
 
 let license
-if (process.env.MIX_REACT_APP_WEB_SDK_LICENSE) {
+
+  if (process.env.MIX_REACT_APP_WEB_SDK_LICENSE) {
     license = process.env.MIX_REACT_APP_WEB_SDK_LICENSE
   } else {
-    license =    'Whr//4Tw5vzO74KHsrAteWwm3Aj1ZAzR21WGeo2enAJKM1Ohfl9g/oakdckrprM3UCJP55U+cey+87FTj3dVxla/+cC3O4TDRFK1Png5QCqrdpucpwefjP+m7MlPxDIt9gAhaw2E0Xko9gVjJq7ook9iN3hhLVjhXXqnkS6wEK3J/Cw0T1LVweiv4YAgI5MtYI6nQ9ArU3XGjOtdMrQzI30QYSiThv0AHYtjNbt4ZXQSoTNZLdKT4sgmV1ea00SaVubHmKLPanhdtBIn+TNBtBfRRTt26N0A6eO2Ao4jRO8PaWw/ecWtx96IftQyuF3SnCwK4pca4lZotn2oogmLUtSfM31KG9Kjnui5EWyJLDCFAXVg/uEU3uUG2BXv0B6HwDsPmOGdisPvlL31hO8fsA=='
+    license =
+    'Whr//4Tw5vzO74KHsrAteWwm3Aj1ZAzR21WGeo2enAJKM1Ohfl9g/oakdckrprM3UCJP55U+cey+87FTj3dVxla/+cC3O4TDRFK1Png5QCqrdpucpwefjP+m7MlPxDIt9gAhaw2E0Xko9gVjJq7ook9iN3hhLVjhXXqnkS6wEK3J/Cw0T1LVweiv4YAgI5MtYI6nQ9ArU3XGjOtdMrQzI30QYSiThv0AHYtjNbt4ZXQSoTNZLdKT4sgmV1ea00SaVubHmKLPanhdtBIn+TNBtBfRRTt26N0A6eO2Ao4jRO8PaWw/ecWtx96IftQyuF3SnCwK4pca4lZotn2oogmLUtSfM31KG9Kjnui5EWyJLDCFAXVg/uEU3uUG2BXv0B6HwDsPmOGdisPvlL31hO8fsA=='
   }
 
 CortexDecoder.CDDecoder.init().then(() => {
