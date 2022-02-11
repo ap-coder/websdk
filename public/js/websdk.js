@@ -385,7 +385,10 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
  // import styles from './Camera.module.scss'
 
-var license = 'pMIFNx4hli3QxShSfhs19sQ5+liNx/jhXYVCogRC4LalzKY42+hq1zAtvcPntFCZC6tb5FBqlsDzKY5m8zacO5aKGa+Tc7sQjiRQhe/qcpHCZD89Zdzj6yqUkEIRIfvLrwmWK8YSvNWW/sy3CD5cN8lNOGQ3R2rAyeqQPod30LjEE3VLCEDfZaECeo+VPvbkoLrGuP1Im5xUvH9jT8qbdNAWEyK2teNi46lDLfiLRttuQGYuA4iPHRvEkbV28rELys/kwwujWS031sytMAd2Z3pe1QiRg2574yxXvM0Z2ttfuPPeiFWLVCbBliHl0peIrDqDF7G6Ez0jD/51GSFYuK92zFXIEEUeOv31OWS2gZCqLsD9G1YYbboTi5a69G/tH5J46+Fr/Kl3mWUays54aQ==';
+if (true) {
+  var license = "3DprdXv3DLrDC4halZHusMGpwsRrUQ5fUOhj7wjVXrViUTr0xe++Q54T54fCAdr0a7P+VYI1p5k7T3DE5oAeJZsKFw08IZeCMLgDdmKK954leNL14T9WiTbG7mMiGOUOagvqowQulI+r91JZoBoeTPfadwm3XXZ1BKQ51SIeswShO7Dx/f3wy8ck9k/B2PqtN3dazwECZEM6rgpJiN1XPqrR5RsxNwD8jkWYPv+wu/bZaKZnhki9/wnZ5aYga7+8FPjOUxnmILvWCt/J7spE19KuxzpyxVnmvzgWOyhT3kHxnUe0Kkm4Cicjo/G/uEZ/yedep/k8zgTF5vEo8TO9kJrslZY5a9VlYmXi8tcKDnCD506nYmhs/hkS7jOULUiIrO9nd5TSmieG4rDDDBGy6w==";
+} else { var license; }
+
 cortexdecoder_web__WEBPACK_IMPORTED_MODULE_1__["CDDecoder"].init().then(function () {
   console.log('Cortex Decoder library initialized');
   cortexdecoder_web__WEBPACK_IMPORTED_MODULE_1__["CDLicense"].activateLicense(license).then(function (res) {
@@ -980,7 +983,10 @@ _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MOD
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
-          license = 'pMIFNx4hli3QxShSfhs19sQ5+liNx/jhXYVCogRC4LalzKY42+hq1zAtvcPntFCZC6tb5FBqlsDzKY5m8zacO5aKGa+Tc7sQjiRQhe/qcpHCZD89Zdzj6yqUkEIRIfvLrwmWK8YSvNWW/sy3CD5cN8lNOGQ3R2rAyeqQPod30LjEE3VLCEDfZaECeo+VPvbkoLrGuP1Im5xUvH9jT8qbdNAWEyK2teNi46lDLfiLRttuQGYuA4iPHRvEkbV28rELys/kwwujWS031sytMAd2Z3pe1QiRg2574yxXvM0Z2ttfuPPeiFWLVCbBliHl0peIrDqDF7G6Ez0jD/51GSFYuK92zFXIEEUeOv31OWS2gZCqLsD9G1YYbboTi5a69G/tH5J46+Fr/Kl3mWUays54aQ==';
+          if (true) {
+            license = "3DprdXv3DLrDC4halZHusMGpwsRrUQ5fUOhj7wjVXrViUTr0xe++Q54T54fCAdr0a7P+VYI1p5k7T3DE5oAeJZsKFw08IZeCMLgDdmKK954leNL14T9WiTbG7mMiGOUOagvqowQulI+r91JZoBoeTPfadwm3XXZ1BKQ51SIeswShO7Dx/f3wy8ck9k/B2PqtN3dazwECZEM6rgpJiN1XPqrR5RsxNwD8jkWYPv+wu/bZaKZnhki9/wnZ5aYga7+8FPjOUxnmILvWCt/J7spE19KuxzpyxVnmvzgWOyhT3kHxnUe0Kkm4Cicjo/G/uEZ/yedep/k8zgTF5vEo8TO9kJrslZY5a9VlYmXi8tcKDnCD506nYmhs/hkS7jOULUiIrO9nd5TSmieG4rDDDBGy6w==";
+          } else {}
+
           _context.prev = 1;
           _context.next = 4;
           return cortexdecoder_web__WEBPACK_IMPORTED_MODULE_3__["CDDecoder"].init();
