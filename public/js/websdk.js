@@ -543,6 +543,8 @@ function DemoCard(_ref) {
       modalToggle = _useState2[0],
       setModalToggle = _useState2[1];
 
+  var imagePath = __webpack_require__(/*! ../../images/icon-files.svg */ "./Resources/assets/js/images/icon-files.svg");
+
   var demo;
 
   switch (id) {
@@ -592,7 +594,7 @@ function DemoCard(_ref) {
   }, requirements)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "demo-card-description p my-0"
   }, description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "images/icon-files.svg",
+    src: imagePath,
     className: "demo-card-icon"
   })), demo);
 }
@@ -3810,6 +3812,17 @@ module.exports = "/images/orange.png?f42bba4ea3c6fab5354f03ddc4fef740";
 /***/ (function(module, exports) {
 
 module.exports = "/images/peppers.png?9e214ef49b096becad33a59b39cf4281";
+
+/***/ }),
+
+/***/ "./Resources/assets/js/images/icon-files.svg":
+/*!***************************************************!*\
+  !*** ./Resources/assets/js/images/icon-files.svg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/icon-files.svg?51cc6bd8893a904327f8128ad81f2c32";
 
 /***/ }),
 

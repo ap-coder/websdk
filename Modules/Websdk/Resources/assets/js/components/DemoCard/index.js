@@ -11,6 +11,8 @@ import DemoFour from '../DemoFour'
 export default function DemoCard({ id, heading, requirements, description }) {
   const [modalToggle, setModalToggle] = useState(false)
 
+  const imagePath = require(`../../images/icon-files.svg`)
+
   let demo
 
   switch (id) {
@@ -57,7 +59,7 @@ export default function DemoCard({ id, heading, requirements, description }) {
         </p>
         <p className="demo-card-description p my-0">{description}</p>
         {/* <IconFiles className={styles['demo-card-icon']} /> */}
-        <img src="images/icon-files.svg" className="demo-card-icon" />
+        <img src={imagePath} className="demo-card-icon" />
       </div>
 
       {demo}
