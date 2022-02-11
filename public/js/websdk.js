@@ -385,9 +385,11 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
  // import styles from './Camera.module.scss'
 
+var license;
+
 if (true) {
-  var license = "3DprdXv3DLrDC4halZHusMGpwsRrUQ5fUOhj7wjVXrViUTr0xe++Q54T54fCAdr0a7P+VYI1p5k7T3DE5oAeJZsKFw08IZeCMLgDdmKK954leNL14T9WiTbG7mMiGOUOagvqowQulI+r91JZoBoeTPfadwm3XXZ1BKQ51SIeswShO7Dx/f3wy8ck9k/B2PqtN3dazwECZEM6rgpJiN1XPqrR5RsxNwD8jkWYPv+wu/bZaKZnhki9/wnZ5aYga7+8FPjOUxnmILvWCt/J7spE19KuxzpyxVnmvzgWOyhT3kHxnUe0Kkm4Cicjo/G/uEZ/yedep/k8zgTF5vEo8TO9kJrslZY5a9VlYmXi8tcKDnCD506nYmhs/hkS7jOULUiIrO9nd5TSmieG4rDDDBGy6w==";
-} else { var license; }
+  license = "3DprdXv3DLrDC4halZHusMGpwsRrUQ5fUOhj7wjVXrViUTr0xe++Q54T54fCAdr0a7P+VYI1p5k7T3DE5oAeJZsKFw08IZeCMLgDdmKK954leNL14T9WiTbG7mMiGOUOagvqowQulI+r91JZoBoeTPfadwm3XXZ1BKQ51SIeswShO7Dx/f3wy8ck9k/B2PqtN3dazwECZEM6rgpJiN1XPqrR5RsxNwD8jkWYPv+wu/bZaKZnhki9/wnZ5aYga7+8FPjOUxnmILvWCt/J7spE19KuxzpyxVnmvzgWOyhT3kHxnUe0Kkm4Cicjo/G/uEZ/yedep/k8zgTF5vEo8TO9kJrslZY5a9VlYmXi8tcKDnCD506nYmhs/hkS7jOULUiIrO9nd5TSmieG4rDDDBGy6w==";
+} else {}
 
 cortexdecoder_web__WEBPACK_IMPORTED_MODULE_1__["CDDecoder"].init().then(function () {
   console.log('Cortex Decoder library initialized');

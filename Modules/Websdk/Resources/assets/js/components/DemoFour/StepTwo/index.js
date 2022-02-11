@@ -8,12 +8,12 @@ import Footer from './Footer'
 ;(async function () {
   
   
+  let license
   if (process.env.MIX_REACT_APP_WEB_SDK_LICENSE) {
-    var license = process.env.MIX_REACT_APP_WEB_SDK_LICENSE
-  } else {
-    var license =
-    'pMIFNx4hli3QxShSfhs19sQ5+liNx/jhXYVCogRC4LalzKY42+hq1zAtvcPntFCZC6tb5FBqlsDzKY5m8zacO5aKGa+Tc7sQjiRQhe/qcpHCZD89Zdzj6yqUkEIRIfvLrwmWK8YSvNWW/sy3CD5cN8lNOGQ3R2rAyeqQPod30LjEE3VLCEDfZaECeo+VPvbkoLrGuP1Im5xUvH9jT8qbdNAWEyK2teNi46lDLfiLRttuQGYuA4iPHRvEkbV28rELys/kwwujWS031sytMAd2Z3pe1QiRg2574yxXvM0Z2ttfuPPeiFWLVCbBliHl0peIrDqDF7G6Ez0jD/51GSFYuK92zFXIEEUeOv31OWS2gZCqLsD9G1YYbboTi5a69G/tH5J46+Fr/Kl3mWUays54aQ=='
-  }
+      license = process.env.MIX_REACT_APP_WEB_SDK_LICENSE
+    } else {
+      license =    'Whr//4Tw5vzO74KHsrAteWwm3Aj1ZAzR21WGeo2enAJKM1Ohfl9g/oakdckrprM3UCJP55U+cey+87FTj3dVxla/+cC3O4TDRFK1Png5QCqrdpucpwefjP+m7MlPxDIt9gAhaw2E0Xko9gVjJq7ook9iN3hhLVjhXXqnkS6wEK3J/Cw0T1LVweiv4YAgI5MtYI6nQ9ArU3XGjOtdMrQzI30QYSiThv0AHYtjNbt4ZXQSoTNZLdKT4sgmV1ea00SaVubHmKLPanhdtBIn+TNBtBfRRTt26N0A6eO2Ao4jRO8PaWw/ecWtx96IftQyuF3SnCwK4pca4lZotn2oogmLUtSfM31KG9Kjnui5EWyJLDCFAXVg/uEU3uUG2BXv0B6HwDsPmOGdisPvlL31hO8fsA=='
+    }
 
   try {
     await CortexDecoder.CDDecoder.init()
